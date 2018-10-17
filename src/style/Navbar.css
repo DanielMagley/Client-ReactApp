@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  src: url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway");
+}
+
+.brand span {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2em;
+  color: green;
+}
+
+.icon {
+  color: aqua;
+  animation: but 5s linear infinite;
+}

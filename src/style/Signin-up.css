@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  src: url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway");
+}
+
+.login {
+  padding: 10vh 0;
+  /* background-color: blue; */
+}
+
+.login h1 {
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  color: #1041ff;
+}
+
+.login form {
+  margin: auto;
+  max-width: 380px;
+}
+
+.login #button {
+  background-color: black;
+  color: white;
+  position: center;
+  float: right;
+}
+
+.login h6 {
+  font-size: 12px;
+  font-family: "Luckiest Guy", cursive;
+  float: left;
+  color: #1041ff;
+}
+
+span {
+  font-family: "Luckiest Guy", cursive;
+  color: #1cb84b;
+}
+
+/*-------Sign Up------*/
+.signup {
+  padding: 10vh 0;
+  /* background-color: bisque; */
+}
+
+.signup h1 {
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  color: #1041ff;
+}
+
+.signup form {
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+.signup #button {
+  background-color: black;
+  color: white;
+  font-family: "Luckiest Guy", cursive;
+  position: center;
+  float: right;
+}
+
+.signup h6 {
+  font-size: 12px;
+  float: left;
+  font-family: "Luckiest Guy", cursive;
+  color: #1041ff;
+}

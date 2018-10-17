@@ -1,0 +1,149 @@
+/* .auth-container {
+  margin-top: 5em;
+  padding: 2em;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.4em;
+  box-shadow: 2px 4px 20px #f0f0f0;
+  color: white;
+  background-image: url(https://www.youtube.com/watch?v=llmaU4jBTqQ);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-image: url(https://www.youtube.com/watch?v=llmaU4jBTqQ);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: Belleza;
+}
+
+.jumbo {
+  background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/metal-gear-background-6.jpg?resize=1920%2C1080");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative; 
+} */
+
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+} */
+
+@font-face {
+  font-family: "Luckiest Guy", cursive;
+  src: url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway");
+}
+
+.auth-container {
+  top: 50%;
+  min-width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  vertical-align: middle;
+  /* background-image: url; */
+  align-content: center;
+  z-index: 1;
+}
+
+.but {
+  font-family: "Luckiest Guy", cursive;
+  color: #d62020;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #ec4967;
+}
+
+.amd {
+  padding: 20vh 30vh 0vh 30vh;
+  font-family: "Luckiest Guy", cursive;
+  color: #127e32;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #5edf85;
+}
+
+.but {
+  animation: but 3s ease infinite;
+  -moz-animation: but 1s ease infinite;
+  -webkit-animation: but 1s ease infinite;
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  /* width: auto;
+  height: auto; */
+  z-index: -100;
+}
+
+@keyframes but {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #dbb03b,
+      0 0 10vw #f0e876, 0 0 0.4vw #fed128, 0.5vw 0.5vw 0.1vw #806914;
+    color: #db2323;
+  }
+  50% {
+    text-shadow: 0 0 0.5vw #db6130, 0 0 1.5vw #db6130, 0 0 5vw #db6130,
+      0 0 5vw #1cb84b, 0 0 0.2vw #1cb84b, 0.5vw 0.5vw 0.1vw #db6130;
+    color: #eccb53;
+  }
+}
+
+.amd {
+  animation: amd 2s linear infinite;
+  -moz-animation: amd 2s linear infinite;
+  -webkit-animation: amd 2s linear infinite;
+  -o-animation: amd 2s linear infinite;
+}
+
+.lp #button {
+  animation: button 2s linear infinite;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 26px;
+  color: green;
+}
+
+@keyframes amd {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041ff, 0 0 3vw #1041ff, 0 0 10vw #1041ff,
+      0 0 10vw #1041ff, 0 0 0.4vw #8bfdfe, 0.5vw 0.5vw 0.1vw #147280;
+    color: #28d7fe;
+  }
+  /* 50% {
+    text-shadow: 0 0 0.5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180,
+      0 0 5vw #082180, 0 0 0.2vw #082180, 0.5vw 0.5vw 0.1vw #0a3940;
+    color: #146c80;
+  } */
+}
+
+@keyframes button {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041ff, 0 0 3vw #1041ff, 0 0 3vw #1041ff,
+      0 0 1vw #1041ff, 0 0 0.4vw #8bfdfe, 0.5vw 0.5vw 0.1vw #147280;
+    color: #28d7fe;
+
+    box-shadow: 0 0 1vw #1cb84b, 0 0 3vw #1c99b8, 0 0 2vw #fa1c16,
+      0 0 2vw #1c99b8, 0 0 0.4vw #dc4ae9;
+    color: #fadf7c;
+  }
+}

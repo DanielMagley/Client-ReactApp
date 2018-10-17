@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway");
+
+/* .mainDiv {
+  background: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.game {
+  display: flex;
+  display: inline-block;
+  padding-top: 2em;
+  justify-content: center;
+  flex-direction: row;
+} */
+
+.bod {
+  background-color: rgb(31, 30, 30);
+  min-height: 100vh;
+}
+
+.mainDiv {
+  background: transparent;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.header {
+  /* display: inline; */
+  color: #1041ff;
+  padding-bottom: 0.3em;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 4.2rem;
+  animation: amd 1s ease infinite;
+}
+
+.header span {
+  color: red;
+}
+
+.cardL input,
+.cardR input {
+  display: none;
+}
+
+.cardL {
+  background-color: aquamarine;
+  transform-style: preserve-3d;
+  transition: all 600ms;
+
+  z-index: 1;
+}
+
+.cardL label {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  justify-content: center;
+  width: 350px;
+  height: 530px;
+  position: absolute;
+  left: 55%;
+  top: 250px;
+  border-radius: 6%;
+
+  transform: translate(-50%, -50%);
+  /* box-shadow: 0 8px 6px -6px black; */
+  cursor: pointer;
+}
+
+.cardL div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(95, 93, 93);
+  color: rgb(230, 205, 64);
+  font-size: 30px;
+  /* margin-left: 1px; */
+  backface-visibility: hidden;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  box-shadow: 0 12px 6px -6px black;
+  border-radius: 6%;
+}
+
+.cardL .back {
+  transform: rotateY(180deg);
+  background: rgb(15, 12, 12);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 0.5em;
+  border-radius: 6%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.cardR {
+  background-color: aquamarine;
+  transform-style: preserve-3d;
+  transition: all 600ms;
+  /* z-index: 1; */
+}
+
+.cardR label {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  justify-content: center;
+  width: 350px;
+  height: 530px;
+  position: absolute;
+  left: 45%;
+  top: 250px;
+  transform: translate(-50%, -50%);
+  border-radius: 6%;
+  cursor: pointer;
+}
+
+.cardR div {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(95, 93, 93);
+  color: rgb(230, 205, 64);
+  font-size: 30px;
+  /* margin-left: 1px; */
+  backface-visibility: hidden;
+  box-shadow: 0 12px 6px -6px black;
+  border-radius: 6%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.cardR .back {
+  transform: rotateY(180deg);
+  background: rgb(230, 205, 64);
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 0.5em;
+}
+
+:checked + .cardL {
+  transform: rotateY(180deg);
+}
+
+:checked + .cardR {
+  transform: rotateY(180deg);
+}
+
+.signin h5 {
+  font-size: 14px;
+  padding-top: 1em;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.signin a {
+  color: red;
+}
+
+.bottom {
+  position: absolute;
+  /* padding-top: 20px; */
+  bottom: 0em;
+  color: white;
+}
+
+.bod #button {
+  animation: button 2s linear infinite;
+  font-size: 22px;
+  font-family: "Luckiest Guy", cursive;
+}
